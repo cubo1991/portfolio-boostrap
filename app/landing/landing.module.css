@@ -1,0 +1,18 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    gap: 3rem; /* Puedes ajustar el valor según la separación deseada */
+    margin-top: 1rem; /* Agrega margen superior para separar del contenedor */
+  }
+  
+  .botones button {
+    margin: 0 0.5rem; /* Ajusta el margen horizontal entre los botones */
+  }
+  
