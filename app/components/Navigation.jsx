@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from "next/link";
 import Nav from 'react-bootstrap/Nav';
+import s from './Navigation.module.css'
 const links = [{
   label: "Home",
   route: "/"
@@ -19,20 +20,20 @@ const links = [{
 
 const Navigation = () => {
   return (
-    <header>
-          <Nav
+    <header className={s.header}>
+          <Nav className={s.nav}
    >
-      <Nav.Item>
-        <Nav.Link href="/home">Inicio</Nav.Link>
+      <Nav.Item className={s.navItem}>
+        <Nav.Link className={s.navLink} href="/home">Inicio</Nav.Link>
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/about">Acerca de mi</Nav.Link>
+      <Nav.Item className={s.navItem}>
+        <Nav.Link className={s.navLink} href="/about">Acerca de mi</Nav.Link>
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/projects">Proyectos</Nav.Link>
+      <Nav.Item className={s.navItem}>
+        <Nav.Link className={s.navLink} href="/projects">Proyectos</Nav.Link>
       </Nav.Item>
-      <Nav.Item>
-        <Nav.Link href="/contacto">Contacto</Nav.Link>
+      <Nav.Item className={s.navItem}>
+        <Nav.Link className={s.navLink} href="/contacto">Contacto</Nav.Link>
       </Nav.Item>
     </Nav>
         </header>

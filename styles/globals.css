@@ -1,6 +1,17 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 :root {
+  
+  --navbar-background-color-1: var(--primary-color);
+  --navbar-background-color-2: var(--secondary-color);
+  --navbar-link-color: var(--button-color);
+  --navbar-link-hover-color: var(--button-hover-color);
+  --navbar-link-focus-color: var(--button-focus-color);
+  --primary-color: #2ecc71;
+  --secondary-color: #3498db;
+  --button-color: #16a085;
+  --button-hover-color: #138d75;
+  --button-focus-color: rgba(52, 152, 219, 0.3);
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
