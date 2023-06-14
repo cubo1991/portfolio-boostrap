@@ -11,7 +11,7 @@ const Projects = () => {
       <div className={`row mt-1 p-1`}>
         <h3 className={s.titulo}>Mis Proyectos</h3>
 
-        <div className={`album py-5 bg-light`} >
+        <div className={`album py-5 bg-light`}>
           <div className={`container-fluid`}>
             <div className={`row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3`}>
               <div className={`col`}>
@@ -71,6 +71,51 @@ const Projects = () => {
                         <IoLogoYoutube className={`${s.flechaBtn}`} />
                       </a>
                       <a href='https://github.com/cubo1991/dogs'>
+                        <IoLogoGithub className={`${s.flechaBtn}`} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Nueva card: CosmicApp */}
+              <div className={`col`}>
+                <div className={`card shadow-sm`}>
+                  {/* <img src={cosmicappImage} alt="CosmicApp Thumbnail" height="151rem" /> */}
+                  <div className={`card-body`}>
+                    <h5 className={`card-title ${s.title}`}>CosmicApp</h5>
+                    <p className={`card-text ${s.paragraph}`}>Aplicación web para liga local del juego Cosmic Encounters. El back esta hecho en MongoDB y es plenamente funcional para su objetivo.</p>
+                    <div className={`d-flex justify-content-between align-items-center`}>
+                      <a href='https://github.com/cubo1991/cosmicapp'>
+                        <IoLogoGithub className={`${s.flechaBtn}`} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={`col`}>
+                <div className={`card shadow-sm`}>
+                  {/* <img src={alienListImage} alt="AlienList Thumbnail" height="151rem" /> */}
+                  <div className={`card-body`}>
+                    <h5 className={`card-title ${s.title}`}>AlienList</h5>
+                    <p className={`card-text ${s.paragraph}`}>Aplicacion Mobile para fanáticos de Cosmic Encounters que no lean ingles. Esta hecha en React Native con Expo.</p>
+                    <div className={`d-flex justify-content-between align-items-center`}>
+                      <a href='https://github.com/cubo1991/alienList'>
+                        <IoLogoGithub className={`${s.flechaBtn}`} />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className={`col`}>
+                <div className={`card shadow-sm`}>
+                  {/* <img src={starTrekSelectorImage} alt="Star Trek Selector Thumbnail" height="151rem" /> */}
+                  <div className={`card-body`}>
+                    <h5 className={`card-title ${s.title}`}>Star Trek Selector</h5>
+                    <p className={`card-text ${s.paragraph}`}>Aplicacion Mobile para fanáticos de Star Trek. Esta hecha en React Native con Expo. Su objetivo es dar un capitulod e forma aleatoria entre todas las series.</p>
+                    <div className={`d-flex justify-content-between align-items-center`}>
+                      <a href='https://github.com/cubo1991/starTrekSelector'>
                         <IoLogoGithub className={`${s.flechaBtn}`} />
                       </a>
                     </div>
